@@ -9,6 +9,7 @@
     - jamescarr.dotfiles
     - jamescarr.vim-janus
 
+  # Miscelaneous Tasks
   tasks:
     - name: Install Handy PIP Packages
       pip:
