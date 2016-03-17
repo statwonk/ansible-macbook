@@ -29,4 +29,4 @@ preferences.
 
 ## Disclaimer
 Obviously run this at your own risk. By running this on your machine
-you're saying that you totally trust me without reservation.
+you're saying that you totally trust me without reservation. I cannot take the blame if you run this and are left with a broken configuration... all I have to say for now is that this works on my machine! 
