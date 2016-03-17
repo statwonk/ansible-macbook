@@ -4,9 +4,7 @@ homebrew_taps:
   - caskroom/cask
 
 homebrew_installed_packages:
-  - packer
   - zsh
-  - terraform
   - git
   - python
   - tmux
@@ -19,3 +17,6 @@ homebrew_cask_apps:
   - iterm2
   - dockertoolbox
   - viscosity
+  - packer
+  - terraform
+  - screenhero
