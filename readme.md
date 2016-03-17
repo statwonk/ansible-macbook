@@ -29,4 +29,4 @@ preferences.
 
 ## Disclaimer
 Obviously run this at your own risk. By running this on your machine
-you're saying that you totally trust me without resrvation.
+you're saying that you totally trust me without reservation.
