@@ -1,0 +1,21 @@
+---
+# Homebrew
+homebrew_taps:
+  - caskroom/cask
+
+homebrew_installed_packages:
+  - packer
+  - zsh
+  - terraform
+  - git
+  - python
+  - tmux
+
+homebrew_cask_apps:
+  - virtualbox
+  - vagrant
+  - vagrant-manager
+  - google-chrome
+  - iterm2
+  - dockertoolbox
+  - viscosity

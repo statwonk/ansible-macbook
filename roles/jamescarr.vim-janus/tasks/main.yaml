@@ -1,0 +1,13 @@
+- name: Install MacVim
+  homebrew:
+    name: macvim
+    state: latest
+
+- name: Get Janus
+  get_url:
+    url: https://bit.ly/janus-bootstrap
+    dest: /tmp/janus-bootstrap
+
+- name: Install Janus
+  shell: bash /tmp/janus-bootstrap
+

@@ -1,0 +1,33 @@
+---
+- name: Create .zsh directory
+  file:
+    path: ~/.zsh
+    state: directory
+
+- name: Create .zsh secrets dir
+  file:
+    path: ~/.zsh/secret
+    state: directory
+    mode: 0700
+
+- name: Check if .zshrc already exists
+  stat:
+    path: ~/.zshrc
+  register: zshrc
+
+- name: Check if .zshrc.backup already exists
+  stat:
+    path: ~/.zshrc.backup
+  register: z_backup
+
+- name: Backup .zshrc if it exists
+  copy:
+    src: ~/.zshrc
+    dest: ~/.zshrc.backup
+  when: zshrc.stat.exists and not z_backup.stat.exists
+
+- name: Copy zshrc
+  copy:
+    src: dot.zshrc
+    dest: ~/.zshrc
+
