@@ -4,19 +4,34 @@ homebrew_taps:
   - caskroom/cask
 
 homebrew_installed_packages:
-  - zsh
+  - ansible
   - git
+  - go
+  - httpie
+  - hub
   - python
+  - openssl
+  - npm
+  - nvm
   - tmux
+  - zsh
 
 homebrew_cask_apps:
-  - virtualbox
+  - dockertoolbox
+  - evernote
+  - google-chrome
+  - gpgtools
+  - iterm2
+  - packer
+  - pycharm
+  - limechat
+  - licecap
+  - screenhero
+  - skype
+  - slack
+  - spotify
+  - terraform
   - vagrant
   - vagrant-manager
-  - google-chrome
-  - iterm2
-  - dockertoolbox
+  - virtualbox
   - viscosity
-  - packer
-  - terraform
-  - screenhero
